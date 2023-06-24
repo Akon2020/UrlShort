@@ -12,7 +12,7 @@ L'API est assez simple et facile à utiliser. Il vous suffit de faire une demand
 
 C'est facile de héberger UrlShort avec le serviceheroku cli. Il ne vous suffit que d'avoir un compte heroku pour le faire.
 
-1.  Clonez le repo sur Github  
+1. Clonez le repo sur Github  
 
 `git clone https://github.com/Akon2020/UrlShort.git`
 
