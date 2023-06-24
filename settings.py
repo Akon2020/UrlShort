@@ -110,5 +110,5 @@ def shorten(url):
     short_list = engine(encoded_url, encoded_shortened_url)
     return short_list
 
-print(engine("https://urlshort.com/", "Hello"))
+
 debug_engine()

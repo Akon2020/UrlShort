@@ -1,6 +1,6 @@
 from enum import unique
 from flask import Flask, render_template, request, redirect, session
-from brain import shorten, get_original
+from settings import shorten, get_original
 
 app = Flask(__name__)
 
