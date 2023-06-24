@@ -8,45 +8,44 @@ J'ai écrit UrlShort pour pratiquer le développement web avec flask. Il s'agit 
 
 L'API est assez simple et facile à utiliser. Il vous suffit de faire une demande à <https://url-short.herokuapp.com/api/v1/'url>'. Vous obtiendrez un json avec 3 paramètres : original_url, short_url, time_created. Utilisez-les comme bon vous semble.
 
+# Hébergement
 
-# Deployement
+C'est facile de héberger UrlShort avec le serviceheroku cli. Il ne vous suffit que d'avoir un compte heroku pour le faire.
 
-It is quite easy to deploy UrlShort with heroku cli. You have to have a heroku account for this though.
-
-1. Clone the Github Repository  
+1.  Clonez le repo sur Github  
 
 `git clone https://github.com/Akon2020/UrlShort.git`
 
-2. login to heroku cli
+2. Connection à heroku cli
 
 `heroku login`
 
-3. Create a new heroku app
+3. Creation d'une nouvelle application heroku
 
 `heroku create "app-name"`
 
-4. Initialize Git and Add
+4. Initialisation et ajout à Git
 
 `git init
 git add .`
 
-5. Commit and Push
+5. Le Commit et Le Push
 
-`git commit -m "Commit Message"
+`git commit -m "Message du commit"
 git push`
 
-6. Wait for Heroku to build and Done.
+6. Patientez qu'Heroku finisse le build et votre application sera prête.
 
 ## Hope You Enjoy UrlShort
 
 # Future
 
-I am still learning flask and in the future, I hope to make UrlShort better
+J'apprends encore flask et compte continuer pour rendre UrlShort encore mieux
 
-- Add Url Alias [-]
-- Add a REST API [-]
-- Make Backend Faster
-- Improve the UI
+- Ajouter un alias d'url [-]
+- Ajouter un REST API [-]
+- Concevoir un Backend plus rapidement
+- Faire mieux en UI
 
 Merci d'avoir utiliser UrlShort
 Un Projet de akonkwaushindi
